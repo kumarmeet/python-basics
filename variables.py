@@ -26,6 +26,12 @@ food = ["pizza", "momos", "dal", "rice"]
 
 print(random.choice(food))
 
+age = 21
+print("Jim age is" + age)
+
+#f string
+print(f"Jim age is {age}")
+
 
 
 
