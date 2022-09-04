@@ -4,7 +4,6 @@
 import random
 
 def check_win(choices):
-  # print("You chose " + choices["player"] + " computer chose " + choices["computer"])
   print(f"You chose {choices['player']} and computer chose {choices['computer']}")
 
   if choices["player"] == choices["computer"]:
@@ -26,7 +25,6 @@ def get_choices():
   choices = {"player": player_choice, "computer": computer_choice}
 
   return check_win(choices)
-  
 
 result = get_choices()
 
